@@ -4,11 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "homepage": "https://vineeth.github.io/resumeWebsite",
+
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.0.0",
     "@fortawesome/free-regular-svg-icons": "^7.0.0",
